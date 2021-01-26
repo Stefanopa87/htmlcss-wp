@@ -78,7 +78,7 @@
   }
 
   .top h1{
-    font-weight: bold;
+    /* font-weight: bold; */
     /* non lo riconosce */
   }
 
@@ -121,7 +121,16 @@
     color: grey;
   }
 
+  .scuro{
+    position: relative;
+  }
 
+  .scuro .layover{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
 
   /* footer */
  footer{
@@ -132,4 +141,4 @@
 
  footer h3{
    padding-top: 20px;
- }
+  }
