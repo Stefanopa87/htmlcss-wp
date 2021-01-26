@@ -18,13 +18,29 @@
     background-color: pink;
   }
 
+  #logo{
+    height: 70px;
+  }
+
+  ul li{
+    margin-top: 20px;
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: grey;
+  }
+
   /* parte centrale */
 
   section{
     height: 700px;
     margin-bottom: 20px;
-    /* debug */
-    background-color: orange;
+    background-image: url("../img/banner.jpg");
+    border-radius: 20px;
+
 
   }
 
